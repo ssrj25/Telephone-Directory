@@ -1,19 +1,28 @@
 # Telephone Directory
 
-A C++ console-based telephone directory application for storing and managing contact information.
+A C++ console-based contact management application that provides a simple way to maintain a telephone directory. Users can add, view, search, edit, and delete contact records through a menu-driven interface.
 
-## Features
+## What It Does
 
-- Add, search, update, and delete contacts
-- Manage contact details through a menu-driven interface
-- Persistent contact data handling
+The application stores contact details such as name, phone number, address, and email in a local file. It reads and updates the stored records as users perform directory operations.
+
+## Key Features
+
+- Add new contacts
+- List contacts alphabetically
+- Search contacts by name
+- Edit contact details
+- Delete contacts
+- Persistent local contact storage
+- Menu-driven console interface
 
 ## Tech Stack
 
 - C++
-- File Handling
-- Data Structures
+- File handling
+- Structures
+- Standard C++ libraries
 
 ## Run
 
-Compile and run `telephone.cpp` using a C++ compiler.
+Compile `telephone.cpp` with a C++ compiler and run the generated executable.
